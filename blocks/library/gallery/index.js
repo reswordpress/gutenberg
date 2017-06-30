@@ -61,7 +61,7 @@ registerBlockType( 'core/gallery', {
 
 	attributes: {
 		images:
-			query( 'div.wp-block-gallery figure.blocks-gallery-image img', {
+			query( 'figure.blocks-gallery-image img', {
 				url: attr( 'src' ),
 				alt: attr( 'alt' ),
 			} ) || [],
